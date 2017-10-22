@@ -22,6 +22,10 @@ steve.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
-steve.learn(some_knowledge)
+kayla = Student.new
+kayla.first_name = "Kayla"
+kayla.last_name = "Hansen"
 
-puts "Steve just learned more important knowledge: '#{steve.knowledge}' from Avi"
+kayla.learn(some_knowledge)
+
+puts "Kayla just leanred #{kayla.knowledge.first} from Avi"
